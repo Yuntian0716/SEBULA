@@ -71,7 +71,7 @@ Utilize R-based statistical modeling (`doublet_cm` function) to classify cells a
 
 **R Script:**
 ```r
-library(DDtest)
+library(SEBULA)
 library(readr)
 
 filtered_h5 <- "/hits/Johann_Novaseq/fastq/8193-JF/10x_analysis_8193-JF/Sample_8193-JF-3/filtered_feature_bc_matrix.h5"
@@ -119,7 +119,7 @@ Install the R package directly from GitHub:
 
 ```R
 install.packages("devtools")
-devtools::install_github("Yuntian0716/DDtest")
+devtools::install_github("Yuntian0716/SEBULA")
 ```
 
 ---
