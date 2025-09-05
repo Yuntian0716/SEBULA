@@ -1,9 +1,9 @@
-# DDtest
+# SEBULA
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-DDtest is an R package for detecting doublets in single-cell ATAC-seq data using fragment overlap patterns and central matching statistics.
+SEBULA is an R package for detecting doublets in single-cell ATAC-seq data using fragment overlap patterns and central matching statistics.
 
 ---
 
