@@ -25,10 +25,10 @@ run_preprocessing_pipeline <- function(filtered_h5, raw_h5, atac_fragments,
   }
 
   # Locate bundled files from the package
-  gen_script <- system.file("py", "generate_singlecell.py", package = "DDtest")
-  frag_script <- system.file("py", "FragmentFileOverlapCounter.py", package = "DDtest")
-  process_script <- system.file("py", "process_overlap_counter.py", package = "DDtest")
-  human_autosomes <- system.file("py", "human_autosomes.txt", package = "DDtest")
+  gen_script <- system.file("py", "generate_singlecell.py", package = "SEBULA")
+  frag_script <- system.file("py", "FragmentFileOverlapCounter.py", package = "SEBULA")
+  process_script <- system.file("py", "process_overlap_counter.py", package = "SEBULA")
+  human_autosomes <- system.file("py", "human_autosomes.txt", package = "SEBULA")
 
   # Step 1: Generate singlecell.csv
   singlecell_cmd <- sprintf(
